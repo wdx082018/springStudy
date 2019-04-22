@@ -7,17 +7,17 @@ public class Test {
   public static void main(String[] args) {
     //new Wdw().findLove();
     try {
-      /*Person person = (Person)new Meipo().getInstance(new Wdw());
+      Person person = (Person)new Meipo().getInstance(new Wdx());
       person.findLove();
-      byte[] bytes = ProxyGenerator.generateProxyClass("$Proxy0", new Class[]{person.getClass()});
+      /*byte[] bytes = ProxyGenerator.generateProxyClass("$Proxy0", new Class[]{person.getClass()});
       FileOutputStream fos = new FileOutputStream("F:/$Proxy0.class");
       fos.write(bytes);
       fos.close();*/
 
 
-      Person person = (Person)new WdxMeipo().getInstance(new Wdw());
+     /* Person person = (Person)new WdxMeipo().getInstance(new Wdw());
       System.out.println(person.getClass().getName());
-      person.findLove();
+      person.findLove();*/
     } catch (Exception e) {
       e.printStackTrace();
     }
